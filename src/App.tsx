@@ -1,5 +1,4 @@
 import kirsAvatar from "./assets/kris_avatar.jpg";
-import yingAvatar from "./assets/ying_avatar.jpg";
 import ContactCard from "./components/contact-card";
 import {
   Card,
@@ -24,12 +23,12 @@ function App() {
             phone="18556383211"
             gender="male"
           />
-          <ContactCard
+          {/* <ContactCard
             name="Ying"
             avatar={yingAvatar}
             phone="15358110813"
             gender="female"
-          />
+          /> */}
         </CardContent>
       </Card>
     </main>
